@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set() #Importing Libraries for Data Processing and Displaying
 want = str(input("Pick stock Initials "))
-start_date = '1960-4-1'  #Retrieving data from user
-end_date = '2023-4-23'
+
 
 
 
@@ -10,7 +9,7 @@ import yfinance as yf  #Importing Stock Database / Scraping Libraries
 import seaborn as sns; sns.set()
 import requests
 
-start_date = '2023-4-17'
+start_date = '2023-1-17' #PICK/CHANGE THE DATES HERE IN THE INDICATED FORMATS
 end_date = '2023-4-21'
 
 M = yf.download(tickers = want, #Setting search
